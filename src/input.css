@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.icon:hover path {fill: white;}
+
+.active-box:hover .icon-box{
+    right: 0 !important;
+}
+.icon-box{
+    transition: all 300ms linear !important;
+}
